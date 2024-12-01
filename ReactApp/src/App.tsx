@@ -4,7 +4,7 @@ import { NewsFeed } from './components/NewsFeed';
 import NewsReels from './components/NewsReels';
 import type { Article } from './types';
 
-const API_Key = "YOUR_NEWS_API_KEY" //ur nes apikey (visit "https://newsapi.org/" for key)
+const API_Key = "462df61bdb0b4796be17519d0845da66" //ur nes apikey (visit "https://newsapi.org/" for key)
 
 function App() {
   const [articles, setArticles] = useState<Article[]>([]);
