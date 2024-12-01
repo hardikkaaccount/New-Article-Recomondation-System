@@ -83,7 +83,7 @@ npm install
 4. Start the React development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The frontend will run at `http://localhost:5173/`.
@@ -102,10 +102,10 @@ This will open the **News Article Recommendation System** in your browser.
 
 Here are some screenshots of the application:
 
-![Homepage](screenshots/homepage.png)
+![Latest News](screenshots/homepage.png)
 *Homepage displaying trending articles.*
 
-![Article Detail](screenshots/article-detail.png)
+![News Reels](screenshots/reels.mp4)
 *Detailed view of an article.*
 
 ![Recommendations](screenshots/recommendations.png)
