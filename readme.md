@@ -105,8 +105,7 @@ Here are some screenshots of the application:
 ![Latest News](screenshots/homepage.png)
 *Homepage displaying trending articles.*
 
-![News Reels](screenshots/reels.mp4)
-*Detailed view of an article.*
+![Short scrollable News](screenshots/reels.gif)
 
 ![Recommendations](screenshots/recommendations.png)
 *Personalized recommendations based on user preferences.*
