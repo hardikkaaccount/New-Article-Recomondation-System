@@ -83,7 +83,7 @@ npm install
 4. Start the React development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The frontend will run at `http://localhost:5173/`.
