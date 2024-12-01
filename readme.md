@@ -171,4 +171,3 @@ We would love to hear from you! Feel free to reach out to us for collaborations,
 
 
 <p style="text-align: center; font-style: italic; margin-top: 20px;">Looking forward to connecting with you!</p>
-
