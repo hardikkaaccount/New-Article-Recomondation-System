@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Include Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gray-50">
+  <div class="min-h-screen bg-gray-50">
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between h-16">
+          <div class="flex">
+            <div class="flex-shrink-0 flex items-center">
+              <!-- Use Font Awesome Icon -->
+              <i class="fas fa-newspaper h-8 w-8 text-blue-600"></i>
+              <span class="ml-2 text-xl font-bold text-gray-900">NewsHub</span>
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <button class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium text-gray-900 border-blue-500">
+                <i class="fas fa-newspaper h-4 w-4 mr-2"></i>
+                News Feed
+              </button>
+              <button class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium text-gray-900 border-transparent hover:border-gray-300 hover:text-gray-700">
+                <i class="fas fa-film h-4 w-4 mr-2"></i>
+                News Reels
+              </button>
+              <button class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium text-gray-900 border-transparent hover:border-gray-300 hover:text-gray-700" onclick="window.open('http://localhost:5000', '_blank')">
+                <i class="fas fa-compass h-4 w-4 mr-2"></i>
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <!-- Content goes here -->
+    </main>
+  </div>
+
+</body>
+</html>

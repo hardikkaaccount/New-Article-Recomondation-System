@@ -1,0 +1,170 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.navbar input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Popup Styling */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.popup-content p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.popup-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.popup-content a:hover {
+    text-decoration: underline;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar input[type="text"] {
+        width: 200px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .popup-content {
+        padding: 20px;
+    }
+}
